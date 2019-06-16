@@ -19,5 +19,6 @@ nnoremap <silent> <Leader>N :call supern#clear()<CR>
 
 " clear @/ when when the first time open vim
 " call supern#clear()
-let @/=""
+" let @/=""
+au BufEnter * call supern#clear()
 
