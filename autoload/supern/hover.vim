@@ -1,5 +1,5 @@
 
-function! supern#search()
+function! supern#hover#search()
   let pattern = @/
   if (!empty(pattern)) && (pattern != '\%V,\%V')
     return
