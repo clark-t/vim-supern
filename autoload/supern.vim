@@ -1,5 +1,5 @@
 
-function! supern#word()
+function! supern#clear()
   execute "normal! :noh\<CR>"
   let @/ = ""
 endfunction
