@@ -24,16 +24,11 @@ plug "clark-t/vim-supern"
 ### Search Cursor Hovered Word
 
 when in Normal mode, just make cursor hover the word you want to search,
-then press n/N to search next or prev.
+then press <Leader>n/N to search next or prev.
 
 ### Search Selected Word
 
 In visual mode, you can select anything you want to search and then
-press n/N to search next or prev.
-
-### Clear Search Word
-
-Press <Leader>n or <Leader>N to clear current search word and cancel
-keyword highlighting.
+press <Leader>n/N to search next or prev.
 
 Pretty easy, huh? That's it.

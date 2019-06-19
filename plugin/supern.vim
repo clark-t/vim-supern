@@ -9,16 +9,11 @@ endif
 
 let loaded_supern = 1
 
-nnoremap <silent> N :call supern#hover#search()<CR>N
-nnoremap <silent> n :call supern#hover#search()<CR>n
-vnoremap <silent> N :call supern#selected#search()<CR>N
-vnoremap <silent> n :call supern#selected#search()<CR>n
+nnoremap <silent> <Leader>N :call supern#hover#search()<CR>N
+nnoremap <silent> <Leader>n :call supern#hover#search()<CR>n
+vnoremap <silent> <Leader>N :call supern#selected#search()<CR>N
+vnoremap <silent> <Leader>n :call supern#selected#search()<CR>n
 
-nnoremap <silent> <Leader>n :call supern#clear()<CR>
-nnoremap <silent> <Leader>N :call supern#clear()<CR>
-
-" clear @/ when when the first time open vim
-" call supern#clear()
-" let @/=""
-au BufEnter * call supern#clear()
+nnoremap <silent> <Leader><Space>n :call supern#clear()<CR>
+nnoremap <silent> <Leader><Space>N :call supern#clear()<CR>
 

@@ -1,10 +1,5 @@
 
 function! supern#selected#search()
- let pattern = @/
- if (!empty(pattern)) && (pattern != '\%V,\%V')
-   return
- endif
-
  let l:saved_reg = @"
  execute "normal! vgvy"
 
