@@ -7,7 +7,7 @@ Letter n/N is jump to next searching matched place, you need to type
 sometimes type keywords is a annoying thing, especially the keywords is
 long or contain special letter.
 
-One searching situation usually take place when you see a word and want to find it on the same file, So I create this plugin to use n/N for it.
+One searching situation usually take place when you see a word and want to find it on the same file, So I create this plugin to use `<Leader>n/N` for it.
 
 ## Install
 
